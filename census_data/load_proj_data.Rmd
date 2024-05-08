@@ -1,0 +1,25 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+# Reading the data from the adult.data file downloaded from https://archive.ics.uci.edu/dataset/20/census+income
+data <- read.table("census+income/adult.data", header = FALSE, sep = ",", stringsAsFactors = FALSE)
+
+# Define column names based on the description given on website
+col_names <- c("age", "workclass", "fnlwgt", "education", "education_num",
+               "marital_status", "occupation", "relationship", "race", "sex",
+               "capital_gain", "capital_loss", "hours_per_week", "native_country", "income")
+
+# Set column names
+colnames(data) <- col_names
+
+# Write the data to a CSV file
+write.csv(data, "census_data.csv", row.names = FALSE)
+```
+
