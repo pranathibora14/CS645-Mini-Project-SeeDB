@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: CS645-Mini-Project-SeeDB
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Pranathi Rao
+    name-particle: '`'
+    family-names: Bora
+    email: pranathi.borra@gmail.com
+  - given-names: Aaditree
+    family-names: Jaisswal
+    email: adi18rox@gmail.com
+  - given-names: Rachna Ajit
+    family-names: Soundatti
+    email: rachnasoundatti3099@gmail.com
+repository-code: 'https://github.com/pranathibora14/CS645-Mini-Project-SeeDB'
+abstract: |-
+  Mini project implementation of SeeDB for CS 645.
+
+  Team members:
+
+  Rachna Ajit Soundatti
+  Pranathi Rao Bora
+  Aaditree Jaisswal
